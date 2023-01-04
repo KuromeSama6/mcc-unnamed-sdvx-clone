@@ -1,0 +1,101 @@
+[12:25:36][Info] Starting task "Application Setup"
+[12:25:36][Info] Version: 0.5.0
+[12:25:36][Info] Git commit: 2022-07-26_e8ede61c
+[12:25:36][Info] The locale was changed from C to English_United States.utf8
+[12:25:36][Info] Starting task "Font library initialization"
+[12:25:36][Info] Finished task "Font library initialization" in  6 ms
+[12:25:36][Info] Starting task "Creating Window"
+[12:25:37][Warning] No joysticks found
+[12:25:37][Info] Finished task "Creating Window" in  304 ms
+[12:25:37][Warning] Failed to open file for reading D:\dev\mcc-unnamed-sdvx-clone\Build\Original\skins\Default\skin.cfg: The system cannot find the file specified.
+
+[12:25:37][Info] Adjusting window size for 1 windows...
+[12:25:37][Info] Starting task "Audio Init"
+[12:25:37][Info] Finished task "Audio Init" in  42 ms
+[12:25:37][Info] Starting task "GL Init"
+[12:25:37][Info] OpenGL Version: 3.3.0 NVIDIA 526.47
+[12:25:37][Info] OpenGL Shading Language Version: 3.30 NVIDIA via Cg compiler
+[12:25:37][Info] OpenGL Renderer: NVIDIA GeForce GTX 1650/PCIe/SSE2
+[12:25:37][Info] OpenGL Vendor: NVIDIA Corporation
+[12:25:37][Info] Finished task "GL Init" in  17 ms
+[12:25:37][Info] Starting task "Discord RPC Init"
+[12:25:37][Info] Starting task "Check for updates"
+[12:25:37][Info] Finished task "Discord RPC Init" in  0 ms
+[12:25:37][Info] Starting task "Load Transition Screens"
+[12:25:37][Info] Finished task "Load Transition Screens" in  2 ms
+[12:25:37][Info] System max texture size: 32768 (cjk small: 1024 / large: 8192)
+[12:25:37][Normal] Update check status code: 200
+[12:25:39][Warning] No sorting set
+[12:25:39][Warning] No sorting set
+[12:25:39][Warning] No sorting set
+[12:25:39][Warning] Can't run ScanFiles, "D:\dev\mcc-unnamed-sdvx-clone\Build\Original\profiles/" is not a folder
+[12:27:35][Warning] No sorting set
+[12:27:35][Warning] No sorting set
+[12:27:35][Warning] No sorting set
+[12:27:35][Warning] Can't run ScanFiles, "D:\dev\mcc-unnamed-sdvx-clone\Build\Original\profiles/" is not a folder
+[12:28:07][Warning] No sorting set
+[12:28:07][Warning] No sorting set
+[12:28:07][Warning] No sorting set
+[12:28:07][Warning] No sorting set
+[12:28:07][Warning] Can't run ScanFiles, "D:\dev\mcc-unnamed-sdvx-clone\Build\Original\profiles/" is not a folder
+[12:28:12][Warning] No sorting set
+[12:28:12][Warning] No sorting set
+[12:28:12][Warning] No sorting set
+[12:28:12][Warning] No sorting set
+[12:28:12][Warning] Can't run ScanFiles, "D:\dev\mcc-unnamed-sdvx-clone\Build\Original\profiles/" is not a folder
+[12:28:24][Warning] No sorting set
+[12:28:24][Warning] No sorting set
+[12:28:24][Warning] No sorting set
+[12:28:24][Warning] No sorting set
+[12:28:24][Warning] Can't run ScanFiles, "D:\dev\mcc-unnamed-sdvx-clone\Build\Original\profiles/" is not a folder
+[12:28:27][Warning] FX audio for for beatmap does not exists at: "D:\dev\mcc-unnamed-sdvx-clone\Build\Original\songs\Testify\" Using real-time effects instead.
+[12:28:27][Normal] Testing shared textures
+[12:28:27][Normal] AddSharedTexture sanity check success
+[12:29:02][Warning] No sorting set
+[12:29:02][Warning] No sorting set
+[12:29:02][Warning] No sorting set
+[12:29:02][Warning] No sorting set
+[12:29:02][Warning] Can't run ScanFiles, "D:\dev\mcc-unnamed-sdvx-clone\Build\Original\profiles/" is not a folder
+[12:29:05][Warning] FX audio for for beatmap does not exists at: "D:\dev\mcc-unnamed-sdvx-clone\Build\Original\songs\Testify\" Using real-time effects instead.
+[12:29:05][Normal] Testing shared textures
+[12:29:05][Normal] AddSharedTexture sanity check success
+[12:31:26][Warning] No sorting set
+[12:31:26][Warning] No sorting set
+[12:31:26][Warning] No sorting set
+[12:31:26][Warning] No sorting set
+[12:31:26][Warning] Can't run ScanFiles, "D:\dev\mcc-unnamed-sdvx-clone\Build\Original\profiles/" is not a folder
+[12:31:29][Warning] FX audio for for beatmap does not exists at: "D:\dev\mcc-unnamed-sdvx-clone\Build\Original\songs\Testify\" Using real-time effects instead.
+[12:31:29][Normal] Testing shared textures
+[12:31:29][Normal] AddSharedTexture sanity check success
+[12:31:53][Warning] No sorting set
+[12:31:53][Warning] No sorting set
+[12:31:53][Warning] No sorting set
+[12:31:53][Warning] No sorting set
+[12:31:53][Warning] Can't run ScanFiles, "D:\dev\mcc-unnamed-sdvx-clone\Build\Original\profiles/" is not a folder
+[12:31:55][Warning] FX audio for for beatmap does not exists at: "D:\dev\mcc-unnamed-sdvx-clone\Build\Original\songs\Testify\" Using real-time effects instead.
+[12:31:56][Normal] Testing shared textures
+[12:31:56][Normal] AddSharedTexture sanity check success
+[12:34:14][Warning] No sorting set
+[12:34:14][Warning] No sorting set
+[12:34:14][Warning] No sorting set
+[12:34:14][Warning] No sorting set
+[12:34:14][Warning] Can't run ScanFiles, "D:\dev\mcc-unnamed-sdvx-clone\Build\Original\profiles/" is not a folder
+[12:34:17][Warning] FX audio for for beatmap does not exists at: "D:\dev\mcc-unnamed-sdvx-clone\Build\Original\songs\Testify\" Using real-time effects instead.
+[12:34:17][Normal] Testing shared textures
+[12:34:17][Normal] AddSharedTexture sanity check success
+[12:34:48][Warning] No sorting set
+[12:34:48][Warning] No sorting set
+[12:34:48][Warning] No sorting set
+[12:34:48][Warning] No sorting set
+[12:34:48][Warning] Can't run ScanFiles, "D:\dev\mcc-unnamed-sdvx-clone\Build\Original\profiles/" is not a folder
+[12:34:51][Warning] FX audio for for beatmap does not exists at: "D:\dev\mcc-unnamed-sdvx-clone\Build\Original\songs\Testify\" Using real-time effects instead.
+[12:34:51][Normal] Testing shared textures
+[12:34:51][Normal] AddSharedTexture sanity check success
+[12:35:05][Warning] No sorting set
+[12:35:05][Warning] No sorting set
+[12:35:05][Warning] No sorting set
+[12:35:05][Warning] No sorting set
+[12:35:05][Warning] Can't run ScanFiles, "D:\dev\mcc-unnamed-sdvx-clone\Build\Original\profiles/" is not a folder
+[12:35:08][Warning] FX audio for for beatmap does not exists at: "D:\dev\mcc-unnamed-sdvx-clone\Build\Original\songs\Testify\" Using real-time effects instead.
+[12:35:08][Normal] Testing shared textures
+[12:35:08][Normal] AddSharedTexture sanity check success
