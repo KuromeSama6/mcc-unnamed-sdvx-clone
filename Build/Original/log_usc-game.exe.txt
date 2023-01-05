@@ -1,25 +1,40 @@
-[11:43:13][Info] Starting task "Application Setup"
-[11:43:13][Info] Version: 0.5.0
-[11:43:13][Info] Git commit: 2022-07-26_e8ede61c
-[11:43:13][Info] The locale was changed from C to English_United States.utf8
-[11:43:13][Info] Starting task "Font library initialization"
-[11:43:13][Info] Finished task "Font library initialization" in  6 ms
-[11:43:13][Info] Starting task "Creating Window"
-[11:43:14][Warning] No joysticks found
-[11:43:14][Info] Finished task "Creating Window" in  245 ms
-[11:43:14][Info] Adjusting window size for 1 windows...
-[11:43:14][Info] Starting task "Audio Init"
-[11:43:14][Info] Finished task "Audio Init" in  392 ms
-[11:43:14][Info] Starting task "GL Init"
-[11:43:14][Info] OpenGL Version: 3.3.0 NVIDIA 517.66
-[11:43:14][Info] OpenGL Shading Language Version: 3.30 NVIDIA via Cg compiler
-[11:43:14][Info] OpenGL Renderer: NVIDIA GeForce RTX 3080/PCIe/SSE2
-[11:43:14][Info] OpenGL Vendor: NVIDIA Corporation
-[11:43:14][Info] Finished task "GL Init" in  15 ms
-[11:43:14][Info] Starting task "Discord RPC Init"
-[11:43:14][Info] Starting task "Check for updates"
-[11:43:14][Info] Finished task "Discord RPC Init" in  0 ms
-[11:43:14][Info] Starting task "Load Transition Screens"
-[11:43:14][Info] Finished task "Load Transition Screens" in  3 ms
-[11:43:14][Info] System max texture size: 32768 (cjk small: 1024 / large: 8192)
-[11:43:14][Normal] Update check status code: 200
+[14:01:51][Info] Starting task "Application Setup"
+[14:01:51][Info] Version: 0.5.0
+[14:01:51][Info] Git commit: 2022-07-26_e8ede61c
+[14:01:51][Info] The locale was changed from C to English_United States.utf8
+[14:01:51][Info] Starting task "Font library initialization"
+[14:01:51][Info] Finished task "Font library initialization" in  7 ms
+[14:01:51][Info] Starting task "Creating Window"
+[14:01:51][Warning] No joysticks found
+[14:01:51][Info] Finished task "Creating Window" in  302 ms
+[14:01:51][Info] Starting task "Audio Init"
+[14:01:52][Info] Finished task "Audio Init" in  375 ms
+[14:01:52][Info] Starting task "GL Init"
+[14:01:52][Info] OpenGL Version: 3.3.0 NVIDIA 517.66
+[14:01:52][Info] OpenGL Shading Language Version: 3.30 NVIDIA via Cg compiler
+[14:01:52][Info] OpenGL Renderer: NVIDIA GeForce RTX 3080/PCIe/SSE2
+[14:01:52][Info] OpenGL Vendor: NVIDIA Corporation
+[14:01:52][Info] Finished task "GL Init" in  16 ms
+[14:01:52][Info] Starting task "Discord RPC Init"
+[14:01:52][Info] Starting task "Check for updates"
+[14:01:52][Info] Finished task "Discord RPC Init" in  0 ms
+[14:01:52][Info] Starting task "Load Transition Screens"
+[14:01:52][Normal] Update check status code: 200
+[14:01:52][Info] Finished task "Check for updates" in  345 ms
+[14:01:52][Warning] Song transition lua has no reset function.
+[14:01:52][Warning] Transition lua has no reset function.
+[14:01:52][Info] Finished task "Load Transition Screens" in  530 ms
+[14:01:52][Info] System max texture size: 32768 (cjk small: 1024 / large: 8192)
+[14:01:55][Warning] No sorting set
+[14:01:55][Warning] No sorting set
+[14:01:55][Warning] No sorting set
+[14:01:55][Warning] No sorting set
+[14:01:55][Warning] Can't run ScanFiles, "C:\Users\HarryChen25\dev\mcc-unnamed-sdvx-clone\Build\Original\profiles/" is not a folder
+[14:01:59][Warning] FX audio for for beatmap does not exists at: "C:\Users\HarryChen25\dev\mcc-unnamed-sdvx-clone\Build\Original\songs\Forbidden Pizza\" Using real-time effects instead.
+[14:01:59][Warning] Failed to open file for reading C:\Users\HarryChen25\dev\mcc-unnamed-sdvx-clone\Build\Original\skins/LucidWave-master/textures/particle_flare.png: The system cannot find the file specified.
+
+[14:01:59][Warning] Lua error: cannot open C:\Users\HarryChen25\dev\mcc-unnamed-sdvx-clone\Build\Original\songs\Forbidden Pizza\layer.gif\bg.lua: No such file or directory
+[14:01:59][Warning] Failed to load background at path: "C:\Users\HarryChen25\dev\mcc-unnamed-sdvx-clone\Build\Original\songs\Forbidden Pizza\layer.gif\" Attempting to load fallback instead.
+[14:01:59][Warning] Lua error: cannot open C:\Users\HarryChen25\dev\mcc-unnamed-sdvx-clone\Build\Original\songs\Forbidden Pizza\layer.gif\fg.lua: No such file or directory
+[14:01:59][Warning] Failed to load foreground at path: "C:\Users\HarryChen25\dev\mcc-unnamed-sdvx-clone\Build\Original\songs\Forbidden Pizza\layer.gif\" Attempting to load fallback instead.
+[14:01:59][Warning] Lua error: cannot open C:\Users\HarryChen25\dev\mcc-unnamed-sdvx-clone\Build\Original\skins\LucidWave-master\backgrounds\fallback\fg.lua: No such file or directory
