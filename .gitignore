@@ -4,7 +4,6 @@
 # Compiled Products
 *.dll
 *.lib
-*.exe
 *.a
 bin/usc-game
 bin/Tests.Game
