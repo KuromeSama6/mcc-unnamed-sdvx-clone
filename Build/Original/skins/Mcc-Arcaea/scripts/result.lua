@@ -235,7 +235,17 @@ result_set = function()
         jacketImg = gfx.CreateImage(result.jacketPath, 0)
     end
 
-    gradeImg = gfx.CreateSkinImage(string.format("score/%s.png", result.grade), 0)
+    imgName = ""
+    if result.score >= 9900000 then imgName = "exp"
+    elseif result.score >= 9800000 then imgName = "ex"
+    elseif result.score >= 9500000 then imgName = "aa"
+    elseif result.score >= 9200000 then imgName = "a"
+    elseif result.score >= 8900000 then imgName = "b"
+    elseif result.score >= 8600000 then imgName = "c"
+    else imgName = "d"
+    end
+
+    gradeImg = gfx.CreateSkinImage(string.format("score/grade_%s.png", imgName), 0)
     if gradeImg ~= nil then
         local gradew, gradeh = gfx.ImageSize(gradeImg)
         gradeAR = gradew / gradeh
@@ -246,9 +256,9 @@ result_set = function()
     end
 
     if result.autoplay then clearTextBase = "AUTOPLAY"
-    elseif result.hitWindow ~= nil and result.hitWindow.type == 0 then clearTextBase = "EXPAND JUDGE"
+    elseif result.hitWindow ~= nil and result.hitWindow.type == 0 then clearTextBase = "EASY"
     elseif result.badge == 0 then clearTextBase = "NOT SAVED"
-    elseif result.badge == 1 then clearTextBase = "PLAYED"
+    elseif result.badge == 1 then clearTextBase = "TRACK LOST"
     elseif result.badge == 2 then clearTextBase = "TRACK COMPLETE"
     elseif result.badge == 3 then clearTextBase = "TRACK COMPLETE"
     elseif result.badge == 4 then clearTextBase = "FULL RECALL"
@@ -370,10 +380,10 @@ draw_score = function(score, x, y, w, h, pre)
     local prefix = ""
     if pre ~= nil then prefix = pre end
 
-    gfx.LoadSkinFont("NovaMono.ttf")
+    gfx.LoadSkinFont("GeosansLight.ttf")
     gfx.BeginPath()
     gfx.TextAlign(gfx.TEXT_ALIGN_RIGHT)
-    gfx.FontSize(h)
+    gfx.FontSize(h*0.75)
     gfx.Text(string.format("%s%04d", prefix, score // 10000), center-h/70, y)
     gfx.TextAlign(gfx.TEXT_ALIGN_LEFT)
     gfx.FontSize(h*0.75)
@@ -736,7 +746,7 @@ draw_left_graph = function(x, y, w, h)
     gfx.Fill()
 
     gfx.BeginPath()
-    gfx.LoadSkinFont("NovaMono.ttf")
+    gfx.LoadSkinFont("GeosansLight.ttf")
     gfx.FillColor(255, 255, 255)
     gfx.Text(gaugeText, x+w-6, endGaugeY)
 end
@@ -796,7 +806,7 @@ draw_right_graph = function(x, y, w, h)
     drawLine(x, y+meanY, x+w, y+meanY, 1.25, 255, 0, 0, 192)
     drawLine(x, y+medianY, x+w, y+medianY, 1.25, 64, 64, 255, 192)
 
-    gfx.LoadSkinFont("NovaMono.ttf")
+    gfx.LoadSkinFont("GeosansLight.ttf")
 
     gfx.BeginPath()
     if meanY < medianY then

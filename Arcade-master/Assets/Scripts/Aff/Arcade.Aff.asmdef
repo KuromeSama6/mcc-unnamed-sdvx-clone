@@ -1,0 +1,16 @@
+{
+    "name": "Arcade.Aff",
+    "references": [
+        "Schwarzer.StringParser",
+        "Schwarzer.I18n"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

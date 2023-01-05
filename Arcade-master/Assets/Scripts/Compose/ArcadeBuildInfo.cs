@@ -1,0 +1,1 @@
+namespace Arcade.Compose { public static class ArcadeBuildInfo { public const string BuildString = "3.0.0 Build Time 20200715143143"; public const long Timestamp = 637304203033041718; } }

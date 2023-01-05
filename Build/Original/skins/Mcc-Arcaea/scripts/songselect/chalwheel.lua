@@ -33,16 +33,16 @@ local legendTable = {
   {["labelSingleLine"] =  gfx.CreateLabel("PLAY",16, 0),              ["labelMultiLine"] =  gfx.CreateLabel("PLAY",16, 0),               ["image"] = gfx.CreateSkinImage("legend/start.png", 0)}
 }
 local grades = {
-  {["max"] = 6999999, ["image"] = gfx.CreateSkinImage("score/D.png", 0)},
-  {["max"] = 7999999, ["image"] = gfx.CreateSkinImage("score/C.png", 0)},
-  {["max"] = 8699999, ["image"] = gfx.CreateSkinImage("score/B.png", 0)},
-  {["max"] = 8999999, ["image"] = gfx.CreateSkinImage("score/A.png", 0)},
-  {["max"] = 9299999, ["image"] = gfx.CreateSkinImage("score/A+.png", 0)},
-  {["max"] = 9499999, ["image"] = gfx.CreateSkinImage("score/AA.png", 0)},
-  {["max"] = 9699999, ["image"] = gfx.CreateSkinImage("score/AA+.png", 0)},
-  {["max"] = 9799999, ["image"] = gfx.CreateSkinImage("score/AAA.png", 0)},
-  {["max"] = 9899999, ["image"] = gfx.CreateSkinImage("score/AAA+.png", 0)},
-  {["max"] = 99999999, ["image"] = gfx.CreateSkinImage("score/S.png", 0)}
+  {["max"] = 8599999, ["image"] = gfx.CreateSkinImage("score/grade_d.png", 0)},
+  {["max"] = 8899999, ["image"] = gfx.CreateSkinImage("score/grade_c.png", 0)},
+  {["max"] = 9199999, ["image"] = gfx.CreateSkinImage("score/grade_b.png", 0)},
+  {["max"] = 9499999, ["image"] = gfx.CreateSkinImage("score/grade_a.png", 0)},
+  {["max"] = 9799999, ["image"] = gfx.CreateSkinImage("score/grade_aa.png", 0)},
+  {["max"] = 9899999, ["image"] = gfx.CreateSkinImage("score/grade_ex.png", 0)},
+  {["max"] = 99999999, ["image"] = gfx.CreateSkinImage("score/grade_exp.png", 0)},
+  -- {["max"] = 9799999, ["image"] = gfx.CreateSkinImage("score/AAA.png", 0)},
+  -- {["max"] = 9899999, ["image"] = gfx.CreateSkinImage("score/AAA+.png", 0)},
+  -- {["max"] = 99999999, ["image"] = gfx.CreateSkinImage("score/S.png", 0)}
 }
 
 local badges = {

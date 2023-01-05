@@ -72,12 +72,12 @@ end
 function setButtons()
 	if buttons == nil then
 		buttons = {}
-		buttons[1] = {"Start", Menu.Start}
-		buttons[2] = {"Multiplayer", Menu.Multiplayer}
-        buttons[3] = {"Challenges", Menu.Challenges}
-		buttons[4] = {"Get Songs", Menu.DLScreen}
-		buttons[5] = {"Settings", Menu.Settings}
-		buttons[6] = {"Exit", Menu.Exit}
+		buttons[1] = {"Song Select", Menu.Start}
+		--buttons[2] = {"Multiplayer", Menu.Multiplayer}
+        --buttons[3] = {"Challenges", Menu.Challenges}
+		--buttons[4] = {"Get Songs", Menu.DLScreen}
+		buttons[2] = {"Settings", Menu.Settings}
+		--buttons[6] = {"Exit", Menu.Exit}
 	end
 end
 
@@ -166,7 +166,7 @@ render = function(deltaTime)
     buttonY = resy / 2;
     hovered = nil;
 	
-    gfx.LoadSkinFont("NotoSans-Regular.ttf");
+	gfx.LoadSkinFont("NotoSansCJKsc.otf");
 	
 	for i=1,#buttons do
 		cursorYs[i] = buttonY
@@ -175,7 +175,7 @@ render = function(deltaTime)
 			cursorIndex = i
 		end
 	end
-	
+	gfx.LoadSkinFont("slant.ttf");
 	handle_controller()
 	
 	draw_cursor(resx/2 - 100, cursorYs[cursorIndex], deltaTime)
@@ -184,10 +184,13 @@ render = function(deltaTime)
     gfx.FillColor(255,255,255);
     gfx.FontSize(120);
     if label == -1 then
-        label = gfx.CreateLabel("unnamed_sdvx_clone", 120, 0);
+        label = gfx.CreateLabel("SoundVoltex", 120, 0);
     end
     gfx.TextAlign(gfx.TEXT_ALIGN_CENTER + gfx.TEXT_ALIGN_MIDDLE);
     gfx.DrawLabel(label, resx / 2, resy / 2 - 200, resx-40);
+	gfx.LoadSkinFont("NotoSansCJKsc.otf");
+	gfx.DrawLabel(gfx.CreateLabel("Using custom fork of USC", 30, 0), resx / 2, resy / 2 - 100, resx - 40);
+	gfx.DrawLabel(gfx.CreateLabel("SOUND VOLTEX and related trademarks belongs to Konami", 30, 0), resx / 2, resy / 2 - 50, resx - 40);
     updateUrl, updateVersion = game.UpdateAvailable()
     if updateUrl then
        gfx.BeginPath()

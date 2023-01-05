@@ -1,0 +1,22 @@
+{
+    "name": "Arcade.Compose",
+    "references": [
+        "Demigiant.DOTween",
+        "Schwarzer.Windows",
+        "Arcade.Gameplay",
+        "Arcade.Aff",
+        "Schwarzer.Mp3Converter",
+        "Schwarzer.UnityExtension",
+        "Schwarzer.Dispatcher",
+        "Schwarzer.I18n"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

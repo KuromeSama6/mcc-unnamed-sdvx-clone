@@ -208,6 +208,7 @@ local consoleAnimImages = {
     gfx.CreateSkinImage("console/glow_voll.png", 0),
     gfx.CreateSkinImage("console/glow_volr.png", 0),
 }
+
 -- -------------------------------------------------------------------------- --
 -- Timers, used for animations:                                               --
 if introTimer == nil then
@@ -904,7 +905,7 @@ local score_animation = Animation:new()
 -- draw_score:                                                                --
 function draw_score(deltaTime)
     gfx.BeginPath()
-    gfx.LoadSkinFont("NovaMono.ttf")
+    gfx.LoadSkinFont("GeosansLight.ttf")
     gfx.BeginPath()
     gfx.RoundedRectVarying(desw - 210, 5, 220, 62, 0, 0, 0, 20)
     gfx.FillColor(20, 20, 20)
@@ -915,7 +916,7 @@ function draw_score(deltaTime)
     gfx.Translate(-5, 5) -- upper right margin
     gfx.FillColor(255, 255, 255)
     gfx.TextAlign(gfx.TEXT_ALIGN_RIGHT + gfx.TEXT_ALIGN_TOP)
-    gfx.FontSize(60)
+    gfx.FontSize(50)
     gfx.Text(string.format("%08d", math.floor(score_animation:tick(deltaTime))), desw, 0)
     draw_best_diff(deltaTime, desw, 66)
     gfx.Translate(5, -5) -- undo margin
@@ -969,7 +970,7 @@ function draw_combo(deltaTime)
     else
         gfx.FillColor(255,255,255) --regular
     end
-    gfx.LoadSkinFont("NovaMono.ttf")
+    gfx.LoadSkinFont("GeosansLight.ttf")
     gfx.FontSize(70 * math.max(comboScale, 1))
     comboScale = comboScale - deltaTime * 3
     gfx.Text(tostring(combo), combo_info.posx, combo_info.posy)
@@ -1109,10 +1110,19 @@ function render_outro(deltaTime, clearState)
         gfx.Scale(scale,scale)
         gfx.TextAlign(gfx.TEXT_ALIGN_CENTER + gfx.TEXT_ALIGN_MIDDLE)
         gfx.FillColor(255,255,255, math.floor(255 * math.min(outroTimer, 1)))
-        gfx.LoadSkinFont("NovaMono.ttf")
+        gfx.LoadSkinFont("GeosansLight.ttf")
         gfx.FontSize(70)
+
+        -- result badge
         gfx.Text(clearTexts[clearState], desw / 2, desh / 2)
+        -- local badgeImage = gfx.CreateSkinImage("resultbadges/%s.png".format(clearTexts[clearState]), 0)
+        -- gfx.ImageRect()
+
         outroTimer = outroTimer + deltaTime
+
+        --play sound
+        
+
         return outroTimer > 2, 1 - outroTimer
     else
         outroTimer = outroTimer + deltaTime
@@ -1161,7 +1171,7 @@ if normal_font == nil then
 end
 local mono_font = game.GetSkinSetting('multi.mono_font')
 if mono_font == nil then
-    mono_font = 'NovaMono.ttf'
+    mono_font = 'GeosansLight.ttf'
 end
 
 local users = nil
