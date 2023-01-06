@@ -1,0 +1,56 @@
+[09:49:22][Info] Starting task "Application Setup"
+[09:49:22][Info] Version: 0.5.0
+[09:49:22][Info] Git commit: 2023-01-05_670bd0c8
+[09:49:22][Info] The locale was changed from C to C
+[09:49:22][Info] Starting task "Font library initialization"
+[09:49:22][Info] Finished task "Font library initialization" in  10 ms
+[09:49:22][Info] Starting task "Creating Window"
+[09:49:22][Warning] No joysticks found
+[09:49:22][Info] Finished task "Creating Window" in  113 ms
+[09:49:22][Info] Starting task "Audio Init"
+[09:49:22][Info] Audio driver [0]: pulseaudio
+[09:49:22][Info] Audio driver [1]: alsa
+[09:49:22][Info] Audio driver [2]: sndio
+[09:49:22][Info] Audio driver [3]: pipewire
+[09:49:22][Info] Audio driver [4]: dsp
+[09:49:22][Info] Audio driver [5]: disk
+[09:49:22][Info] Audio driver [6]: dummy
+[09:49:22][Info] Using audio driver: pulseaudio
+[09:49:22][Info] Audio device [0]: Built-in Audio Analog Stereo
+[09:49:22][Info] Audio device [1]: Built-in Audio Digital Stereo (HDMI)
+[09:49:22][Info] Finished task "Audio Init" in  3 ms
+[09:49:22][Info] Starting task "GL Init"
+[09:49:22][Info] OpenGL Version: 4.6 (Core Profile) Mesa 22.0.5
+[09:49:22][Info] OpenGL Shading Language Version: 4.60
+[09:49:22][Info] OpenGL Renderer: Mesa Intel(R) HD Graphics 4600 (HSW GT2)
+[09:49:22][Info] OpenGL Vendor: Intel
+[09:49:22][Info] Finished task "GL Init" in  51 ms
+[09:49:22][Info] Starting task "Discord RPC Init"
+[09:49:22][Info] Starting task "Check for updates"
+[09:49:22][Info] Finished task "Discord RPC Init" in  6 ms
+[09:49:22][Info] Starting task "Load Transition Screens"
+[09:49:23][Normal] Update check status code: 200
+[09:49:23][Info] Finished task "Check for updates" in  233 ms
+[09:49:24][Warning] Song transition lua has no reset function.
+[09:49:24][Warning] Transition lua has no reset function.
+[09:49:24][Info] Finished task "Load Transition Screens" in  1216 ms
+[09:49:24][Info] System max texture size: 16384 (cjk small: 1024 / large: 8192)
+[09:49:15][Warning] No sorting set
+[09:49:15][Warning] No sorting set
+[09:49:15][Warning] No sorting set
+[09:49:15][Warning] No sorting set
+09:44:51][Normal] Update check status code: 200
+[09:45:03][Normal] Update check status code: 200
+[09:45:11][Warning] No sorting set
+[09:45:11][Warning] No sorting set
+[09:45:11][Warning] No sorting set
+[09:45:11][Warning] No sorting set
+[09:45:16][Warning] FX audio for for beatmap does not exists at: "/home/playtest/dev/mcc-unnamed-sdvx-clone/bin/songs/guitartokodokutoaoiwakusei_remix" Using real-time effects instead.
+[09:45:18][Warning] Failed to open file for reading /home/playtest/dev/mcc-unnamed-sdvx-clone/bin/skins/LucidWave-master/textures/particle_flare.png: 2
+[09:45:18][Warning] Lua error: cannot open /home/playtest/dev/mcc-unnamed-sdvx-clone/bin/skins/LucidWave-master/backgrounds/techno/fg.lua: No such file or directory
+[09:45:18][Warning] Failed to load foreground at path: "/home/playtest/dev/mcc-unnamed-sdvx-clone/bin/skins/LucidWave-master/backgrounds/techno/" Attempting to load fallback instead.
+[09:45:18][Warning] Lua error: cannot open /home/playtest/dev/mcc-unnamed-sdvx-clone/bin/skins/LucidWave-master/backgrounds/fallback/fg.lua: No such file or directory
+r] Failed to load asset [m_fontMaterial = LoadMaterial("font")]
+[09:41:45][Info] Finished task "Application Setup" in  1419 ms
+[09:41:45][Info] Starting task "Application Cleanup"
+[09:41:45][Info] Finished task "Application Cleanup" in  0 ms

@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "../lib/libGraphics_Release.a"
+  "../lib/libGraphics_Release.pdb"
+  "CMakeFiles/Graphics.dir/src/Font.cpp.o"
+  "CMakeFiles/Graphics.dir/src/Font.cpp.o.d"
+  "CMakeFiles/Graphics.dir/src/Gamepad_Impl.cpp.o"
+  "CMakeFiles/Graphics.dir/src/Gamepad_Impl.cpp.o.d"
+  "CMakeFiles/Graphics.dir/src/Image.cpp.o"
+  "CMakeFiles/Graphics.dir/src/Image.cpp.o.d"
+  "CMakeFiles/Graphics.dir/src/ImageLoader.cpp.o"
+  "CMakeFiles/Graphics.dir/src/ImageLoader.cpp.o.d"
+  "CMakeFiles/Graphics.dir/src/Material.cpp.o"
+  "CMakeFiles/Graphics.dir/src/Material.cpp.o.d"
+  "CMakeFiles/Graphics.dir/src/Mesh.cpp.o"
+  "CMakeFiles/Graphics.dir/src/Mesh.cpp.o.d"
+  "CMakeFiles/Graphics.dir/src/MeshGenerators.cpp.o"
+  "CMakeFiles/Graphics.dir/src/MeshGenerators.cpp.o.d"
+  "CMakeFiles/Graphics.dir/src/OpenGL.cpp.o"
+  "CMakeFiles/Graphics.dir/src/OpenGL.cpp.o.d"
+  "CMakeFiles/Graphics.dir/src/ParticleSystem.cpp.o"
+  "CMakeFiles/Graphics.dir/src/ParticleSystem.cpp.o.d"
+  "CMakeFiles/Graphics.dir/src/RenderQueue.cpp.o"
+  "CMakeFiles/Graphics.dir/src/RenderQueue.cpp.o.d"
+  "CMakeFiles/Graphics.dir/src/ResourceManagers.cpp.o"
+  "CMakeFiles/Graphics.dir/src/ResourceManagers.cpp.o.d"
+  "CMakeFiles/Graphics.dir/src/Shader.cpp.o"
+  "CMakeFiles/Graphics.dir/src/Shader.cpp.o.d"
+  "CMakeFiles/Graphics.dir/src/SpriteMap.cpp.o"
+  "CMakeFiles/Graphics.dir/src/SpriteMap.cpp.o.d"
+  "CMakeFiles/Graphics.dir/src/Texture.cpp.o"
+  "CMakeFiles/Graphics.dir/src/Texture.cpp.o.d"
+  "CMakeFiles/Graphics.dir/src/VertexFormat.cpp.o"
+  "CMakeFiles/Graphics.dir/src/VertexFormat.cpp.o.d"
+  "CMakeFiles/Graphics.dir/src/Window.cpp.o"
+  "CMakeFiles/Graphics.dir/src/Window.cpp.o.d"
+  "CMakeFiles/Graphics.dir/stdafx.cpp.o"
+  "CMakeFiles/Graphics.dir/stdafx.cpp.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/Graphics.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

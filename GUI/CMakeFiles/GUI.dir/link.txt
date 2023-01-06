@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libGUI_Release.a CMakeFiles/GUI.dir/stdafx.cpp.o
+/usr/bin/ranlib ../lib/libGUI_Release.a

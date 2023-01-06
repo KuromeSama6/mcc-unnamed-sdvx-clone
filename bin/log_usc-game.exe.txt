@@ -1,0 +1,50 @@
+[07:45:48][Info] Starting task "Application Setup"
+[07:45:48][Info] Version: 0.5.0
+[07:45:48][Info] Git commit: 2022-07-26_e8ede61c
+[07:45:48][Info] The locale was changed from C to English_United States.65001
+[07:45:48][Info] Starting task "Font library initialization"
+[07:45:48][Info] Finished task "Font library initialization" in  17 ms
+[07:45:48][Info] Starting task "Creating Window"
+[07:45:48][Warning] No joysticks found
+[07:45:48][Info] Finished task "Creating Window" in  90 ms
+[07:45:48][Info] Starting task "Audio Init"
+[07:45:48][Info] Finished task "Audio Init" in  99 ms
+[07:45:48][Info] Starting task "GL Init"
+[07:45:48][Info] OpenGL Version: 4.6 (Core Profile) Mesa 22.0.5
+[07:45:48][Info] OpenGL Shading Language Version: 4.60
+[07:45:48][Info] OpenGL Renderer: Mesa Intel(R) HD Graphics 4600 (HSW GT2)
+[07:45:48][Info] OpenGL Vendor: Intel
+[07:45:48][Info] Finished task "GL Init" in  134 ms
+[07:45:48][Info] Starting task "Discord RPC Init"
+[07:45:48][Info] Starting task "Check for updates"
+[07:45:48][Info] Finished task "Discord RPC Init" in  1 ms
+[07:45:48][Info] Starting task "Load Transition Screens"
+[07:45:49][Normal] Update check status code: 200
+[07:45:49][Info] Finished task "Check for updates" in  291 ms
+[07:45:50][Warning] Song transition lua has no reset function.
+[07:45:50][Warning] Transition lua has no reset function.
+[07:45:50][Info] Finished task "Load Transition Screens" in  1345 ms
+[07:45:50][Info] System max texture size: 16384 (cjk small: 1024 / large: 8192)
+[07:45:53][Warning] No sorting set
+[07:45:53][Warning] No sorting set
+[07:45:53][Warning] No sorting set
+[07:45:53][Warning] No sorting set
+[07:45:53][Warning] Can't run ScanFiles, "Z:\home\playtest\dev\mcc-unnamed-sdvx-clone\Build\Prebuilt\profiles/" is not a folder
+[07:45:54][Warning] Failed to open file for reading Z:\home\playtest\dev\mcc-unnamed-sdvx-clone\Build\Prebuilt\songs\Testify\: Access denied.
+
+[07:45:54][Warning] Failed to open file for reading Z:\home\playtest\dev\mcc-unnamed-sdvx-clone\Build\Prebuilt\songs\Testify\: Access denied.
+
+[07:45:54][Warning] Failed to open file for reading Z:\home\playtest\dev\mcc-unnamed-sdvx-clone\Build\Prebuilt\songs\Testify\: Access denied.
+
+[07:45:54][Warning] Failed to load preview audio from [Z:\home\playtest\dev\mcc-unnamed-sdvx-clone\Build\Prebuilt\songs\Testify\]
+[07:45:54][Warning] Failed to open file for reading Z:\home\playtest\dev\mcc-unnamed-sdvx-clone\Build\Prebuilt\songs\Testify\: Access denied.
+
+[07:45:54][Warning] Failed to open file for reading Z:\home\playtest\dev\mcc-unnamed-sdvx-clone\Build\Prebuilt\songs\Testify\: Access denied.
+
+[07:45:54][Warning] Failed to open file for reading Z:\home\playtest\dev\mcc-unnamed-sdvx-clone\Build\Prebuilt\songs\Testify\: Access denied.
+
+[07:45:54][Warning] Failed to load preview audio from [Z:\home\playtest\dev\mcc-unnamed-sdvx-clone\Build\Prebuilt\songs\Testify\]
+[07:45:54][Warning] Failed to open file for reading Z:\home\playtest\dev\mcc-unnamed-sdvx-clone\Build\Prebuilt\songs\Testify\: Access denied.
+
+[07:45:54][Warning] Failed to open file for reading Z:\home\playtest\dev\mcc-unnamed-sdvx-clone\Build\Prebuilt\songs\Forbidden Pizza\: Access denied.
+

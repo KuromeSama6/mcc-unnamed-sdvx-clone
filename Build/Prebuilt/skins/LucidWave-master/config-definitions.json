@@ -1,0 +1,64 @@
+{
+	"username":
+	{
+		"type": "text",
+		"label": "Username",
+		"default": "GUEST"
+	},
+
+	"earlate_position":
+	{
+		"type": "selection",
+		"label": "Early/Late Position",
+		"default": "Bottom",
+		"values": ["Bottom", "Middle", "Upper", "Upper+", "Off"]
+	},
+
+	"skill_level":
+	{
+		"type": "selection",
+		"label": "Skill Level",
+		"default": "none",
+		"values": ["none", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "inf"]
+	},
+
+	"Clear Effect" : {"type" : "label"},
+	"clear_effect":
+	{
+		"type": "bool",
+		"label": "On/Off",
+		"default": true
+	},
+
+	"Display Chain" : {"type" : "label"},
+	"display_chain":
+	{
+		"type": "bool",
+		"label": "On/Off",
+		"default": true
+	},
+
+	"Display User Info" : {"type" : "label"},
+	"display_user_info":
+	{
+		"type": "bool",
+		"label": "On/Off",
+		"default": true
+	},
+
+	"Display Score Difference" : {"type" : "label"},
+	"display_score_diff":
+	{
+		"type": "bool",
+		"label": "On/Off",
+		"default": true
+	},
+
+	"Display Volforce" : {"type" : "label"},
+	"display_volforce":
+	{
+		"type": "bool",
+		"label": "On/Off",
+		"default": true
+	}
+}

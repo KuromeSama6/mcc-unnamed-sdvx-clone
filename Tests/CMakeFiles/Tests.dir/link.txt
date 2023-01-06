@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libTests_Release.a CMakeFiles/Tests.dir/src/TestManager.cpp.o CMakeFiles/Tests.dir/src/Tests.cpp.o CMakeFiles/Tests.dir/stdafx.cpp.o
+/usr/bin/ranlib ../lib/libTests_Release.a

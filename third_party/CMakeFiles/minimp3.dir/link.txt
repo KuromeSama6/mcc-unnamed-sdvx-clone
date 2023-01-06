@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libminimp3_Release.a CMakeFiles/minimp3.dir/minimp3/minimp3.c.o
+/usr/bin/ranlib ../lib/libminimp3_Release.a
